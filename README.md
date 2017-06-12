@@ -1,4 +1,4 @@
-![](http://ww3.sinaimg.cn/large/006tNbRwgy1ff1ojfkq88j30mt04aq2u.jpg)
+![](http://ww1.sinaimg.cn/large/006tKfTcgy1fgirypm4t6j30mt04at8y.jpg)
 
 [![Cbangchen](https://img.shields.io/badge/cbangchen-iOS-yellow.svg)](http://cbangchen.com)
 [![Version](https://img.shields.io/cocoapods/v/CBMDTabbarController.svg?style=flat)](http://cocoapods.org/pods/CBMDTabbarController)
