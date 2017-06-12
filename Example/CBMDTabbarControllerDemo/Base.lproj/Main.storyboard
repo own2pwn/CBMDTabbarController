@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3MT-By-3FF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Heard-->
+        <scene sceneID="6ft-uZ-vUe">
+            <objects>
+                <viewController id="bu4-l3-OcG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Igf-VZ-lxQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="x4I-gu-hjG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PmJ-fq-GrD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Heart goes on" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXG-q3-jYc">
+                                <rect key="frame" x="0.0" y="285" width="375" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="A1x-Cg-DHd"/>
+                                    <constraint firstAttribute="width" constant="375" id="DFO-sY-Cdf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27182036640000001" green="0.35237658020000001" blue="0.39837569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CXG-q3-jYc" firstAttribute="centerY" secondItem="PmJ-fq-GrD" secondAttribute="centerY" id="BuM-Cj-t3P"/>
+                            <constraint firstItem="CXG-q3-jYc" firstAttribute="centerX" secondItem="PmJ-fq-GrD" secondAttribute="centerX" id="t8t-GB-6sq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Heard" image="heart" id="OCL-eK-QiX" customClass="CBMaterialTabbarItem" customModule="CBMDTabbarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="rippleLayerColor">
+                                <color key="value" red="0.27182036638259888" green="0.35237658023834229" blue="0.39837568998336792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundLayerColor">
+                                <color key="value" red="0.061815183846408196" green="0.23733618457102168" blue="0.33751279210538387" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Yo-1e-35C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2695" y="815"/>
+        </scene>
+        <!--Pen-->
+        <scene sceneID="xpE-ej-G1g">
+            <objects>
+                <viewController id="wgo-7Y-S4n" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l9H-7T-ixX"/>
+                        <viewControllerLayoutGuide type="bottom" id="cFv-wN-PWP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4T6-oC-PpY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Pen have no ink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1A-Ng-uB6">
+                                <rect key="frame" x="0.0" y="285" width="375" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="HoC-ZV-aQg"/>
+                                    <constraint firstAttribute="width" constant="375" id="PPJ-Yl-ebW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.03874827921" green="0.48805910349999998" blue="0.4359153509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="p1A-Ng-uB6" firstAttribute="centerY" secondItem="4T6-oC-PpY" secondAttribute="centerY" id="QmA-LK-nbd"/>
+                            <constraint firstItem="p1A-Ng-uB6" firstAttribute="centerX" secondItem="4T6-oC-PpY" secondAttribute="centerX" id="VOu-j3-WUg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pen" image="pen" id="bKp-It-mqn" customClass="CBMaterialTabbarItem" customModule="CBMDTabbarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="rippleLayerColor">
+                                <color key="value" red="0.038748279213905334" green="0.48805910348892212" blue="0.43591535091400146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundLayerColor">
+                                <color key="value" red="0.023091054553879522" green="0.29832559681697612" blue="0.26623695431734035" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="neC-og-iHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1855" y="815"/>
+        </scene>
+        <!--Materia Tabbar Controller-->
+        <scene sceneID="Zpq-jr-Kvx">
+            <objects>
+                <tabBarController id="3MT-By-3FF" customClass="CBMaterialTabbarController" customModule="CBMDTabbarController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Materia Tabbar Controller" id="mE0-6Q-SFu"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="GII-aF-Tgt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bu4-l3-OcG" kind="relationship" relationship="viewControllers" id="J5l-s4-UeU"/>
+                        <segue destination="wgo-7Y-S4n" kind="relationship" relationship="viewControllers" id="x4k-hh-1h4"/>
+                        <segue destination="LlR-eA-uFA" kind="relationship" relationship="viewControllers" id="EyL-XQ-tXF"/>
+                        <segue destination="fxW-Gn-jXq" kind="relationship" relationship="viewControllers" id="y6V-rs-9JJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y4l-aX-u2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1474" y="-172"/>
+        </scene>
+        <!--Location-->
+        <scene sceneID="geb-jO-2p9">
+            <objects>
+                <viewController id="LlR-eA-uFA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZY8-Qm-Xti"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZYf-xl-9mD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="19F-Ap-tXd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My location is ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0e-Kb-e4T">
+                                <rect key="frame" x="0.0" y="285" width="375" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="NPj-nh-RRy"/>
+                                    <constraint firstAttribute="height" constant="96" id="Zkv-hC-y4Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54781848190000004" green="0.42754614349999998" blue="0.38874053959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="w0e-Kb-e4T" firstAttribute="centerX" secondItem="19F-Ap-tXd" secondAttribute="centerX" id="lQi-aB-LGj"/>
+                            <constraint firstItem="w0e-Kb-e4T" firstAttribute="centerY" secondItem="19F-Ap-tXd" secondAttribute="centerY" id="opI-Yl-LWr"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Location" image="location" id="9LX-wK-8EG" customClass="CBMaterialTabbarItem" customModule="CBMDTabbarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="rippleLayerColor">
+                                <color key="value" red="0.54781848192214966" green="0.42754614353179932" blue="0.38874053955078125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundLayerColor">
+                                <color key="value" red="0.13190005384007991" green="0.22599710712394402" blue="0.32758620689655171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oM9-zz-Rw6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1034" y="815"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="X6p-CV-3Eo">
+            <objects>
+                <viewController id="fxW-Gn-jXq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HAF-O4-GYM"/>
+                        <viewControllerLayoutGuide type="bottom" id="qmB-h7-ZkF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rcw-PD-IKc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trump..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9z-ay-OcI">
+                                <rect key="frame" x="0.0" y="285" width="375" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="4qj-xy-JVn"/>
+                                    <constraint firstAttribute="width" constant="375" id="QTC-3X-uV8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78606805371352784" green="0.69986623050084906" blue="0.47201521806353169" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="K9z-ay-OcI" firstAttribute="centerY" secondItem="rcw-PD-IKc" secondAttribute="centerY" id="ESe-0B-yoD"/>
+                            <constraint firstItem="K9z-ay-OcI" firstAttribute="centerX" secondItem="rcw-PD-IKc" secondAttribute="centerX" id="xnP-6o-oQ3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="news" id="Fco-dz-bf0" customClass="CBMaterialTabbarItem" customModule="CBMDTabbarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="rippleLayerColor">
+                                <color key="value" red="0.78606805369999999" green="0.69986623049999996" blue="0.47201521810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundLayerColor">
+                                <color key="value" red="0.50627901193633951" green="0.44971134834438165" blue="0.30305838129149992" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4G1-Pf-37k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-210.40000000000001" y="814.54272863568224"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" width="23" height="23"/>
+        <image name="location" width="23" height="23"/>
+        <image name="news" width="23" height="23"/>
+        <image name="pen" width="23" height="23"/>
+    </resources>
+</document>

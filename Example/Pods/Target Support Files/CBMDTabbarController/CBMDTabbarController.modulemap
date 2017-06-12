@@ -1,0 +1,6 @@
+framework module CBMDTabbarController {
+  umbrella header "CBMDTabbarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

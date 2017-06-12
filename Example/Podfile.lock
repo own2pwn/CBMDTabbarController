@@ -1,0 +1,16 @@
+PODS:
+  - CBMDTabbarController (1.0.0)
+
+DEPENDENCIES:
+  - CBMDTabbarController (from `../`)
+
+EXTERNAL SOURCES:
+  CBMDTabbarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CBMDTabbarController: a99e9313010973abad2009ea95724b157d637924
+
+PODFILE CHECKSUM: 81240f9fad2d3b35f0bb70161396a69403e446e2
+
+COCOAPODS: 1.2.1
