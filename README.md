@@ -27,14 +27,10 @@ pod "CBMDTabbarController"
 
 ## Usage
 
-1. Create a new UITabBarController in your storyboard or nib.
-
-2. Set the class of the UITabBarController to CBMDTabbarController in your Storyboard or nib.
-
-3. For each UITabBarItem, set the class to CBMaterialTabbarItem.
-
-4. Add a custom image icon for each CBMaterialTabbarItem.
-
+1. Create a new UITabBarController in your storyboard or nib.  
+2. Set the class of the UITabBarController to CBMDTabbarController in your Storyboard or nib. 
+3. For each UITabBarItem, set the class to CBMaterialTabbarItem.  
+4. Add a custom image icon for each CBMaterialTabbarItem.  
 5. Change each item's property.
 
 ## Author
